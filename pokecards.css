@@ -1,0 +1,41 @@
+h1 {
+    color: #000000;
+    padding: 16px;
+}
+
+.card-box {
+    width: 200px;
+    background-color: #d8d9db;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    overflow: hidden;
+    text-align: center;
+    padding: 16px;
+    transition: transform 0.2s ease;
+    font-family: sans-serif;
+    margin: 5px;
+  }
+  
+  .card-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .card-box h2 {
+    font-size: 22px;
+    color: rgb(35, 35, 227);
+    margin: 12px 0 8px;
+  }
+  
+  .card-box p {
+    color: #000000;
+    font-size: 14px;
+  }
+
+
+ 
