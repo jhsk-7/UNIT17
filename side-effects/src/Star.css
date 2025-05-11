@@ -1,0 +1,15 @@
+span:focus{
+    outline: none; 
+    box-shadow: 0 0 8px gold;
+    background-color: rgba(255, 215, 0, 0.4);
+    transition: 1.2;
+}
+
+.star{
+    display: inline-flex;
+    color: goldenrod;
+    height: 13px;
+    width: 13px;
+    justify-content: center;
+    align-items: center;
+}
