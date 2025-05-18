@@ -1,0 +1,23 @@
+.formInputEl {
+  margin: 5px;
+  border: 1px solid rgb(255, 255, 255); 
+  padding: 5px; 
+}
+.input{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box; 
+  border: none;          
+  outline: none;  
+  background-color: rgb(3, 12, 34);
+  color: white;
+}
+.submitBtn{
+  margin: 5px;
+  padding: 5px; 
+  border: 2px solid rgb(0, 255, 60);
+  background-color: transparent;
+  color: rgb(0, 255, 60);
+  padding: 8px 16px;
+  font-size: 14px;
+} 
