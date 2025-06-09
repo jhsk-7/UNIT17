@@ -1,0 +1,33 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* center the nav bar horizontally */
+  align-items: center; /* center vertically */
+  gap: 40px; /* space between links */
+  padding: 16px 0;
+  background-color: #222;
+  color: white;
+  z-index: 1000; /* make sure it's on top of other content */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* optional: subtle shadow */
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #f39c12;
+}
+
+nav h1 {
+  font-size: 24px;
+  color: #e85302;
+  margin: 0
+}

@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
+.wrapper {
+  border: 2px solid #ccc;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #f9f9f9;
+  transition: box-shadow 0.3s ease;
+  width: 100%;
+}
+
+.inputBox {
+  border: 1px solid #999;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  gap: 8px;
+  text-align: center;
+}
+
+.inputBox img {
+  margin-bottom: 12px;
+}
+
+
+
+.buttonWrapper {
+  margin-top: 12px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button {
+  padding: 10px 20px;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  background-color: white;
+}
+
+.button:hover {
+  background-color: #45a049;
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+  .container {
+    width: 90%;
+  }
+
+  .buttonWrapper {
+    justify-content: center;
+  }
+}
